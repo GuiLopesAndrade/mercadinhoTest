@@ -60,7 +60,7 @@ def adicionar_produto():
         messagebox.showerror("Erro", "Digite uma quantidade válida.")
         return
 
-    quilo =float() quilo
+    quilo = float(quilo)
 
     if codigo_escolhido in selecoes:
         selecoes[codigo_escolhido] += quilo
@@ -123,4 +123,3 @@ atualizar_combobox()
 
 # Iniciar a interface gráfica
 root.mainloop()
-
